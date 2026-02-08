@@ -34,4 +34,5 @@ def main():
     with ThreadPoolExecutor(max_workers=CONCURRENT_USERS) as executor:
         executor.map(simulate_user, range(1, DAILY_GOAL + 1))
 
-if name == "main": main()
+if name == "main":
+    main()
