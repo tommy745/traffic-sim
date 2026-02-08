@@ -3,7 +3,7 @@ import time
 import random
 from concurrent.futures import ThreadPoolExecutor
 
-FILE_URL = "https://example.com/file.zip" # REPLACE THIS
+FILE_URL = "https://upfiles.com/jPRo6AQ" # REPLACE THIS
 DAILY_GOAL = random.randint(1900, 2100)
 CONCURRENT_USERS = 5 
 
